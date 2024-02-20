@@ -1,12 +1,12 @@
 import Avatar from "../../assets/avatar.svg";
 import {
-    IconBrandLinkedin,
-    IconBrandInstagram,
-    IconMail,
-    IconBrandReact,
-  } from "@tabler/icons-react";
+  IconBrandLinkedin,
+  IconBrandInstagram,
+  IconMail,
+  IconBrandReact,
+} from "@tabler/icons-react";
 
-const Hero = () => {
+const Home = () => {
   return (
     <div
       className="bg-bg-color max-w-screen min-h-screen flex items-center justify-center relative"
@@ -35,7 +35,7 @@ const Hero = () => {
             <IconMail color="#A6A6A6" size={36} strokeWidth={1.5} />
           </div>
         </div>
-        <div className="w-1/2 h-4/6 flex items-center justify-center">
+        <div className="w-1/2 h-4/6 flex items-center justify-end">
           <img src={Avatar} alt="" />
         </div>
       </div>
@@ -46,7 +46,7 @@ const Hero = () => {
         className="absolute"
         style={{
           left: "-90px",
-          bottom: "-370px",
+          bottom: "-350px",
           transform: "translateY(-50%)",
         }}
       />
@@ -54,4 +54,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

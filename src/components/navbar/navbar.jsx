@@ -6,11 +6,14 @@ const Navbar = () => {
       <nav className="bg-bg-color2 bg-opacity-70 w-4/5 h-14 rounded-xl flex items-center justify-between px-2 fixed z-50">
         <img src={Logo} alt="logo" />
         <div className="flex items-center gap-12">
-          <a href="#" className="text-white font-raleway font-normal text-lg">
+          <a href="/" className="text-white font-raleway font-normal text-lg">
             Home
           </a>
           <a href="#" className="text-white font-raleway font-normal text-lg">
             About
+          </a>
+          <a href="#" className="text-white font-raleway font-normal text-lg">
+            Skills
           </a>
           <a href="#" className="text-white font-raleway font-normal text-lg">
             Project

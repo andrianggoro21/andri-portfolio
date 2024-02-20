@@ -9,6 +9,7 @@ export default {
       colors: {
         'bg-color': '#080022',
         'bg-color2': '#0F0239',
+        'bg-color3': '#000210',
         'bg-button': '#7B4AE2'
       },
       fontFamily: {
@@ -16,7 +17,10 @@ export default {
       },
       fontSize: {
         '56': '56px',
-        // tambahkan ukuran font lainnya sesuai kebutuhan
+        '48': '48px'
+      },
+      height: {
+        '500': '500px'
       }
     },
   },
