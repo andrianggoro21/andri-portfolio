@@ -12,6 +12,7 @@ export default {
         "bar-color1": "#8C76D5",
         "bar-color2": "#331F74",
         "bg-tools": "#321471",
+        "bg-email": "#2D294C"
       },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
@@ -22,9 +23,13 @@ export default {
         48: "48px",
       },
       height: {
+        250: "250px",
         500: "500px",
         700: "700px",
       },
+      width: {
+        400: "400px",
+      }
     },
   },
   plugins: [],
