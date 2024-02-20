@@ -1,7 +1,7 @@
 import Avatar from "../../assets/avatar.svg";
 import {
   IconBrandLinkedin,
-  IconBrandInstagram,
+  IconBrandGithub,
   IconMail,
   IconBrandReact,
 } from "@tabler/icons-react";
@@ -31,8 +31,8 @@ const Home = () => {
           </div>
           <div className="flex gap-2 mt-2">
             <IconBrandLinkedin color="#A6A6A6" size={36} strokeWidth={1.5} />
-            <IconBrandInstagram color="#A6A6A6" size={36} strokeWidth={1.5} />
             <IconMail color="#A6A6A6" size={36} strokeWidth={1.5} />
+            <IconBrandGithub color="#A6A6A6" size={36} strokeWidth={1.5} />
           </div>
         </div>
         <div className="w-1/2 h-4/6 flex items-center justify-end">
