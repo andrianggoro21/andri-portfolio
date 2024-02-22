@@ -57,7 +57,6 @@ const Navbar = () => {
             to="about"
             spy={true}
             smooth={true}
-            // offset={-70}
             duration={500}
             className="text-white font-raleway font-normal text-lg cursor-pointer"
           >
@@ -67,7 +66,6 @@ const Navbar = () => {
             to="skills"
             spy={true}
             smooth={true}
-            // offset={-70}
             duration={500}
             className="text-white font-raleway font-normal text-lg cursor-pointer"
           >
@@ -77,7 +75,6 @@ const Navbar = () => {
             to="project"
             spy={true}
             smooth={true}
-            // offset={-70}
             duration={500}
             className="text-white font-raleway font-normal text-lg cursor-pointer"
           >
@@ -87,7 +84,6 @@ const Navbar = () => {
             to="contact"
             spy={true}
             smooth={true}
-            // offset={-70}
             duration={500}
             className="text-white font-raleway font-normal text-lg cursor-pointer"
           >
@@ -105,36 +101,53 @@ const Navbar = () => {
         </div>
         {showMenu && (
           <div className="absolute top-full left-0 bg-bg-color2 w-full py-2 flex flex-col items-center gap-3 rounded-xl">
-            <a
-              href="/"
-              className="block text-white font-raleway font-normal text-lg"
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="text-white font-raleway font-normal text-lg cursor-pointer"
             >
               Home
-            </a>
-            <a
-              href="#"
-              className="block text-white font-raleway font-normal text-lg"
+            </Link>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              // offset={-70}
+              duration={500}
+              className="text-white font-raleway font-normal text-lg cursor-pointer"
             >
               About
-            </a>
-            <a
-              href="#"
-              className="block text-white font-raleway font-normal text-lg"
+            </Link>
+            <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="text-white font-raleway font-normal text-lg cursor-pointer"
             >
               Skills
-            </a>
-            <a
-              href="#"
-              className="block text-white font-raleway font-normal text-lg"
+            </Link>
+            <Link
+              to="project"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="text-white font-raleway font-normal text-lg cursor-pointer"
             >
               Project
-            </a>
-            <a
-              href="#"
-              className="block text-white font-raleway font-normal text-lg"
+            </Link>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="text-white font-raleway font-normal text-lg cursor-pointer"
             >
               Contact
-            </a>
+            </Link>
             <div className="flex items-center gap-6 mb-2">
               <button
                 type="button"

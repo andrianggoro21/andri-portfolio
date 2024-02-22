@@ -44,7 +44,7 @@ const Home = () => {
           {/* <img src={Avatar} alt="avatar" className="w-400 xl:w-600" /> */}
           <div className="avatar-container relative flex items-center justify-center">
             <div
-              className="circle absolute animate-spin rounded-full w-550 h-550  z-50"
+              className="circle absolute animate-spin rounded-full w-550 h-550 z-40"
               style={{ animationDuration: "30s" }}
             >
               {" "}
