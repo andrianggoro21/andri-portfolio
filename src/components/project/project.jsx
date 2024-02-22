@@ -158,7 +158,15 @@ const Project = () => {
               <div className="w-80 lg:w-350 h-52 lg:h-200 rounded-lg overflow-hidden">
                 <img src={Movie} alt="movie" className="w-full h-full" />
                 <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-20 text-white opacity-0 hover:opacity-100 transition-opacity duration-300">
-                  <button className="px-4 py-2 bg-bg-see text-white rounded">
+                  <button
+                    className="px-4 py-2 bg-bg-see text-white rounded"
+                    onClick={() =>
+                      window.open(
+                        "https://streamin-movie.netlify.app",
+                        "_blank"
+                      )
+                    }
+                  >
                     See Detail
                   </button>
                 </div>
