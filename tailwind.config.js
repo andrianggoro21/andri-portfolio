@@ -12,7 +12,9 @@ export default {
         "bar-color1": "#8C76D5",
         "bar-color2": "#331F74",
         "bg-tools": "#321471",
-        "bg-email": "#2D294C"
+        "bg-email": "#2D294C",
+        "bg-light": "#2C185E",
+        "bg-see": "#8882CA",
       },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
@@ -23,13 +25,21 @@ export default {
         48: "48px",
       },
       height: {
-        250: "250px",
+        3: "3px",
+        200: "200px",
         500: "500px",
+        550: "550px",
+        600: "600px",
         700: "700px",
       },
       width: {
+        300: "300px",
+        350: "350px",
         400: "400px",
-      }
+        500: "500px",
+        550: "550px",
+        600: "600px",
+      },
     },
   },
   plugins: [],
