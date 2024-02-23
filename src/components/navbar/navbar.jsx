@@ -92,6 +92,12 @@ const Navbar = () => {
           <button
             type="button"
             className="text-white font-raleway font-normal text-base bg-bg-button px-3 py-1 rounded-lg"
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/17u1jEWgCvkjvEDvCQJbhu8y1zWRUPcpD/view?usp=sharing",
+                "_blank"
+              )
+            }
           >
             Download CV
           </button>
@@ -151,7 +157,13 @@ const Navbar = () => {
             <div className="flex items-center gap-6 mb-2">
               <button
                 type="button"
-                className="text-white font-raleway font-normal text-base bg-bg-button px-3 py-1 rounded-lg "
+                className="text-white font-raleway font-normal text-base bg-bg-button px-3 py-1 rounded-lg"
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/17u1jEWgCvkjvEDvCQJbhu8y1zWRUPcpD/view?usp=sharing",
+                    "_blank"
+                  )
+                }
               >
                 Download CV
               </button>
