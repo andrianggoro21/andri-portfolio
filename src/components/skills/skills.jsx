@@ -4,6 +4,7 @@ import Javascript from "../../assets/javascript.svg";
 import Typescript from "../../assets/typescript.svg";
 import Bootstrap from "../../assets/bootstrap.svg";
 import Chakra from "../../assets/chakraui.svg";
+import Tailwind from "../../assets/tailwind.svg";
 import Reactjs from "../../assets/reactjs.svg";
 import Nodejs from "../../assets/nodejs.svg";
 import express from "../../assets/express.svg";
@@ -15,6 +16,7 @@ import Postman from "../../assets/postman.svg";
 import Github from "../../assets/github-tools.svg";
 import Gitlab from "../../assets/gitlab-tools.svg";
 import Jira from "../../assets/jira.svg";
+
 
 const Skills = () => {
   return (
@@ -168,7 +170,7 @@ const Skills = () => {
               </div>
               <div className="flex items-center gap-8">
                 <div className="w-fit lg:w-40 flex items-center gap-3">
-                  <img src={Css} alt="css" className="max-w-14" />
+                  <img src={Tailwind} alt="tailwind" className="max-w-14" />
                   <div className="hidden lg:block">
                     <span className="text-sub-title font-raleway font-semibold text-lg">
                       Tailwind
