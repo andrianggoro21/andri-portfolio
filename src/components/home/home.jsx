@@ -1,4 +1,4 @@
-import Avatar1 from "../../assets/avatar1.png";
+import Avatar3 from "../../assets/avatar3.png";
 import React from "../../assets/reactjs.svg";
 import Html from "../../assets/html.svg";
 import Javasript from "../../assets/javascript.svg";
@@ -61,7 +61,7 @@ const Home = () => {
               </div>
             </div>
             <div className="w-80 xs:w-60 xl:w-550 xs:h-60 h-80 xl:h-550 rounded-full z-10 bg-bg-button bg-opacity-30 flex items-center justify-center">
-              <img src={Avatar1} alt="avatar" className=" w-56 xs:w-40 xl:w-96"  />
+              <img src={Avatar3} alt="avatar" className=" w-56 xs:w-40 xl:w-96"  />
             </div>
           </div>
         </div>
