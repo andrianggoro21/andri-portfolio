@@ -41,28 +41,27 @@ const Home = () => {
           </div>
         </div>
         <div className="w-full xl:w-1/2 h-1/2 xl:h-4/6 flex items-center justify-center ">
-          {/* <img src={Avatar} alt="avatar" className="w-400 xl:w-600" /> */}
           <div className="avatar-container relative flex items-center justify-center">
             <div
-              className="circle absolute animate-spin rounded-full w-550 h-550 z-40"
+              className="xs:hidden circle absolute animate-spin rounded-full w-550 h-550 z-40"
               style={{ animationDuration: "30s" }}
             >
               {" "}
-              <div className="text-white w-16 h-16 bg-bg-color flex items-center rounded-full justify-center absolute top-28 xl:top-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="xs:hidden text-white w-16 h-16 bg-bg-color flex items-center rounded-full justify-center absolute top-28 xl:top-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <img src={React} alt="react" />
               </div>
-              <div className="text-white w-16 h-16 bg-bg-color flex items-center rounded-full justify-center absolute bottom-28 xl:bottom-1 left-1/2 transform -translate-x-1/2 translate-y-1/2">
+              <div className="xs:hidden text-white w-16 h-16 bg-bg-color flex items-center rounded-full justify-center absolute bottom-28 xl:bottom-1 left-1/2 transform -translate-x-1/2 translate-y-1/2">
                 <img src={Html} alt="html" />
               </div>
-              <div className="text-white w-16 h-16 bg-bg-color flex items-center rounded-full justify-center absolute bottom-1/2 left-28 xl:left-0 transform -translate-x-1/2 translate-y-1/2">
+              <div className="xs:hidden text-white w-16 h-16 bg-bg-color flex items-center rounded-full justify-center absolute bottom-1/2 left-28 xl:left-0 transform -translate-x-1/2 translate-y-1/2">
                 <img src={Javasript} alt="javscript" />
               </div>
-              <div className="text-white w-16 h-16 bg-bg-color flex items-center rounded-full justify-center absolute bottom-1/2 right-12 xl:-right-16 transform -translate-x-1/2 translate-y-1/2">
+              <div className="xs:hidden text-white w-16 h-16 bg-bg-color flex items-center rounded-full justify-center absolute bottom-1/2 right-12 xl:-right-16 transform -translate-x-1/2 translate-y-1/2">
                 <img src={Typescript} alt="typescript" />
               </div>
             </div>
-            <div className=" w-80 xl:w-550 h-80 xl:h-550 rounded-full z-10 bg-bg-button bg-opacity-30 flex items-center justify-center">
-              <img src={Avatar1} alt="avatar" className=" w-56 xl:w-96"  />
+            <div className="w-80 xs:w-60 xl:w-550 xs:h-60 h-80 xl:h-550 rounded-full z-10 bg-bg-button bg-opacity-30 flex items-center justify-center">
+              <img src={Avatar1} alt="avatar" className=" w-56 xs:w-40 xl:w-96"  />
             </div>
           </div>
         </div>

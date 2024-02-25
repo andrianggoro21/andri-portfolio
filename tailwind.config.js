@@ -40,6 +40,9 @@ export default {
         550: "550px",
         600: "600px",
       },
+      screens: {
+        'xs': {'max': '359px'},
+      }
     },
   },
   plugins: [],

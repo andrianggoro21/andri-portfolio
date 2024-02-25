@@ -94,16 +94,16 @@ const Navbar = () => {
             className="text-white font-raleway font-normal text-base bg-bg-button px-3 py-1 rounded-lg"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/17u1jEWgCvkjvEDvCQJbhu8y1zWRUPcpD/view?usp=sharing",
+                "https://drive.google.com/file/d/1u0nLnkOrL7ZTXV3IiMzf91rvWaAU9dxF/view?usp=sharing",
                 "_blank"
               )
             }
           >
             Download CV
           </button>
-          <button type="button" className="bg-bg-light px-3 py-1 rounded-lg">
+          {/* <button type="button" className="bg-bg-light px-3 py-1 rounded-lg">
             <IconSun color="white" />
-          </button>
+          </button> */}
         </div>
         {showMenu && (
           <div className="absolute top-full left-0 bg-bg-color2 w-full py-2 flex flex-col items-center gap-3 rounded-xl">
@@ -160,19 +160,19 @@ const Navbar = () => {
                 className="text-white font-raleway font-normal text-base bg-bg-button px-3 py-1 rounded-lg"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/17u1jEWgCvkjvEDvCQJbhu8y1zWRUPcpD/view?usp=sharing",
+                    "https://drive.google.com/file/d/1u0nLnkOrL7ZTXV3IiMzf91rvWaAU9dxF/view?usp=sharing",
                     "_blank"
                   )
                 }
               >
                 Download CV
               </button>
-              <button
+              {/* <button
                 type="button"
                 className="bg-bg-light px-3 py-1 rounded-lg"
               >
                 <IconSun color="white" />
-              </button>
+              </button> */}
             </div>
           </div>
         )}

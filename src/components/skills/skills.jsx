@@ -17,10 +17,12 @@ import Github from "../../assets/github-tools.svg";
 import Gitlab from "../../assets/gitlab-tools.svg";
 import Jira from "../../assets/jira.svg";
 
-
 const Skills = () => {
   return (
-    <div id="skills" className="bg-bg-color3 max-w-screen min-h-screen flex flex-col items-center justify-center py-32 lg:py-24">
+    <div
+      id="skills"
+      className="bg-bg-color3 max-w-screen min-h-screen flex flex-col items-center justify-center py-32 lg:py-24"
+    >
       <div className="w-full xl:full 2xl:w-4/5 h-fit xl:h-700 flex flex-col">
         <div className="w-full flex items-center flex-col">
           <span className="text-white font-raleway font-extrabold text-48">
@@ -52,7 +54,7 @@ const Skills = () => {
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Expert
                   </span>
@@ -74,7 +76,7 @@ const Skills = () => {
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Expert
                   </span>
@@ -96,7 +98,7 @@ const Skills = () => {
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color2 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Advanced
                   </span>
@@ -118,7 +120,7 @@ const Skills = () => {
                   <div className="bg-bar-color2 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color2 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Intermediate
                   </span>
@@ -140,7 +142,7 @@ const Skills = () => {
                   <div className="bg-bar-color2 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color2 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Intermediate
                   </span>
@@ -162,7 +164,7 @@ const Skills = () => {
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Expert
                   </span>
@@ -184,7 +186,7 @@ const Skills = () => {
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color2 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Advanced
                   </span>
@@ -211,7 +213,7 @@ const Skills = () => {
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color2 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Advanced
                   </span>
@@ -233,7 +235,7 @@ const Skills = () => {
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color2 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Advanced
                   </span>
@@ -255,7 +257,7 @@ const Skills = () => {
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color2 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Advanced
                   </span>
@@ -277,7 +279,7 @@ const Skills = () => {
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color2 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Advanced
                   </span>
@@ -299,7 +301,7 @@ const Skills = () => {
                   <div className="bg-bar-color2 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color2 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Intermediate
                   </span>
@@ -321,7 +323,7 @@ const Skills = () => {
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                   <div className="bg-bar-color1 w-4 lg:w-10 h-2" />
                 </div>
-                <div>
+                <div className="xs:hidden">
                   <span className="text-sub-title font-raleway font-semibold text-lg">
                     Expert
                   </span>
@@ -331,12 +333,12 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-72 flex items-center flex-col gap-8">
+      <div className="w-full h-fit flex items-center flex-col gap-8">
         <span className="text-sub-title font-raleway font-extrabold text-28">
           Tools
         </span>
         <div className="flex gap-8 flex-col lg:flex-row items-center">
-          <div className="flex gap-4 md:gap-8">
+          <div className="flex xs:flex-col gap-4 md:gap-8">
             <div className="flex flex-col items-center gap-2">
               <div className="w-24 h-24 flex items-center justify-center bg-bg-tools bg-opacity-40 rounded-lg">
                 <img src={Vscode} alt="vscode" />
@@ -362,7 +364,7 @@ const Skills = () => {
               </span>
             </div>
           </div>
-          <div className="flex gap-4 md:gap-8">
+          <div className="flex xs:flex-col gap-4 md:gap-8">
             <div className="flex flex-col items-center gap-2">
               <div className="w-24 h-24 flex items-center justify-center bg-bg-tools bg-opacity-40 rounded-lg">
                 <img src={Gitlab} alt="gitlab" />
