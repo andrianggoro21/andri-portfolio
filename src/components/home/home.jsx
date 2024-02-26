@@ -6,7 +6,7 @@ import Typescript from "../../assets/typescript.svg";
 import {
   IconBrandLinkedin,
   IconBrandGithub,
-  IconMail,
+  IconBrandInstagram,
   IconBrandReact,
 } from "@tabler/icons-react";
 
@@ -35,9 +35,39 @@ const Home = () => {
             </span>
           </div>
           <div className="flex gap-2 mt-2">
-            <IconBrandLinkedin color="#A6A6A6" size={36} strokeWidth={1.5} />
-            <IconMail color="#A6A6A6" size={36} strokeWidth={1.5} />
-            <IconBrandGithub color="#A6A6A6" size={36} strokeWidth={1.5} />
+            <IconBrandLinkedin
+              color="#A6A6A6"
+              size={36}
+              strokeWidth={1.5}
+              cursor="pointer"
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/andrianggoro21/",
+                  "_blank"
+                )
+              }
+            />
+            <IconBrandGithub
+              color="#A6A6A6"
+              size={36}
+              strokeWidth={1.5}
+              cursor="pointer"
+              onClick={() =>
+                window.open("https://github.com/andrianggoro21", "_blank")
+              }
+            />
+             <IconBrandInstagram
+              color="#A6A6A6"
+              size={36}
+              strokeWidth={1.5}
+              cursor="pointer"
+              onClick={() =>
+                window.open(
+                  "https://www.instagram.com/andrianggoro_/",
+                  "_blank"
+                )
+              }
+            />
           </div>
         </div>
         <div className="w-full xl:w-1/2 h-1/2 xl:h-4/6 flex items-center justify-center ">
@@ -61,7 +91,11 @@ const Home = () => {
               </div>
             </div>
             <div className="w-80 xs:w-60 xl:w-550 xs:h-60 h-80 xl:h-550 rounded-full z-10 bg-bg-button bg-opacity-30 flex items-center justify-center">
-              <img src={Avatar3} alt="avatar" className=" w-56 xs:w-40 xl:w-96"  />
+              <img
+                src={Avatar3}
+                alt="avatar"
+                className=" w-56 xs:w-40 xl:w-96"
+              />
             </div>
           </div>
         </div>
