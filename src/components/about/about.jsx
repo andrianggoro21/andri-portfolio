@@ -13,12 +13,16 @@ const About = () => {
               About
             </span>
           </div>
-          <p className="text-white font-raleway font-normal text-xl text-justify tracking-normal xl:text-left">
-            Electrical Engineering graduate who has high enthusiasm for studying
-            Software Development. Passionate about developing, designing and
-            testing websites. Software skills include HTML, CSS, JavaScript, CSS
-            frameworks, React.js, express.js, MySQL and Git. Have interpersonal,
-            problem solving, time management skills, and eager to learn.
+          <p className="text-white font-raleway font-normal text-xl tracking-normal text-left">
+            An electrical engineering graduate committed to exploring the field
+            of software development with enthusiasm to expand knowledge and
+            skills in information technology. Possesses a strong understanding
+            of technical concepts and basic programming, along with a strong
+            desire to become a skilled software developer. Aiming to leverage
+            existing technical skills and problem-solving abilities to build a
+            successful career in software development. Ready to take on new
+            challenges in the world of technology with determination and
+            dedication.
           </p>
         </div>
         <div className="w-full xl:w-1/2 h-full flex items-center justify-center xl:justify-end">
