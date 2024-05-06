@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Logo from "../../assets/logo.png";
-import { IconSun, IconMoon } from "@tabler/icons-react";
+// import { IconSun, IconMoon } from "@tabler/icons-react";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
