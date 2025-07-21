@@ -94,7 +94,7 @@ const Navbar = () => {
             className="text-white font-raleway font-normal text-base bg-bg-button px-3 py-1 rounded-lg"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/13Xy3i_9uPF2jEzszC-04ikSK2iVDVTWn/view?usp=sharing",
+                "https://drive.google.com/file/d/1SGC40mT6t-TYxkwYXaplbMfKsO9hRk4E/view?usp=sharing",
                 "_blank"
               )
             }
