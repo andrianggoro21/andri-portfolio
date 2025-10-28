@@ -31,7 +31,7 @@ const Home = () => {
           </div>
           <div>
             <span className="text-white font-raleway font-normal text-2xl">
-              Software Developer
+              Software Engineer
             </span>
           </div>
           <div className="flex gap-2 mt-2">

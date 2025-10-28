@@ -14,13 +14,14 @@ const About = () => {
             </span>
           </div>
           <p className='text-white font-raleway font-normal text-xl tracking-normal text-left'>
-            A passionate and adaptable Software Developer with a strong
-            foundation in full-stack development. Experienced in designing and
-            implementing robust backend systems, crafting intuitive and
-            responsive user interfaces, and improving overall application
-            performance. Skilled in managing data flow, deploying applications
-            to cloud environments, and integrating with various services to
-            support complex system requirements.
+            A passionate and results-oriented Software Engineer with strong
+            experience in designing scalable backend systems and delivering
+            reliable, high-performance solutions. Skilled in building efficient
+            architectures, optimizing data flows, and integrating automation
+            with AI models to enhance complex business processes. Driven by
+            curiosity and a commitment to writing clean, maintainable code,
+            while continuously learning to create impactful and modern software
+            systems.
           </p>
         </div>
         <div className='w-full xl:w-1/2 h-full flex items-center justify-center xl:justify-end'>
