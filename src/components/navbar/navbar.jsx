@@ -94,7 +94,7 @@ const Navbar = () => {
             className="text-white font-raleway font-normal text-base bg-bg-button px-3 py-1 rounded-lg"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1Sd_xBg2LZWR64l9Y0F5BshRBDeRk93Hh/view?usp=sharing",
+                "https://drive.google.com/file/d/1X-qc2qTGOXkSYqqfsxuJMvvXz8f4Zx1c/view?usp=sharing",
                 "_blank"
               )
             }
@@ -160,7 +160,7 @@ const Navbar = () => {
                 className="text-white font-raleway font-normal text-base bg-bg-button px-3 py-1 rounded-lg"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1Sd_xBg2LZWR64l9Y0F5BshRBDeRk93Hh/view?usp=sharing",
+                    "https://drive.google.com/file/d/1X-qc2qTGOXkSYqqfsxuJMvvXz8f4Zx1c/view?usp=sharing",
                     "_blank"
                   )
                 }
